@@ -1,0 +1,36 @@
+API (Application Programming Interface).
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+JSON placeholder -> para hacer pruebas gratis de APIs (Productos, fotos...).
+
+API REST: Funciona utilizando verbos -> get, post(añadir), put(sustituir), patch(cambiar), delete, head.
+	- Te devuelve jsons.
+	- Cuando hay datos relacionados: overposting -> Te retornan más información de la que necesito.
+		Ej. Tenemos una tabla de usuarios(Manolo, 1) (Juan, 2) y una de categorías(1,Peon) (2,Encargado) (3,Gerente).
+		    Se me descargan datos como el gerente que no utilizo.
+ 
+API ODATA: Exponer Datos relacionados. En el get se especifica la URL de lo que quiero recuperar. En el caso anterior solo me descarga lo que utilizo, gerente 	   no lo descargaría.
+
+GRAPHQL: Expone Datos Relacionados, todo con el método post y tenemos Querys para preguntar consultar, y también tenemos mutaciones (post, put, delete, patch).
+
+
+
+***API REST***
+-> Patrón repository.
+-> Patrón specification: Método en el que mandas un objeto y devuelves un boolean. Como un predicate.
+
+1. 
+
+-> Models: Clientes
+	Objetos con los que vamos a trabajar.
+
+-> Controllers: ClientesController
+	Un controlador por cada clase modelo.
+	@RestController para indicar que está escuchando.
+	@RestMapping("/Clientes") para indicar a que controller quiero acceder.
+
+-> 
+
+	
+

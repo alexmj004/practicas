@@ -1,0 +1,19 @@
+PROGRAMACIÓN FUNCIONAL:
+- Principios SOLID -> Cinco principios de diseño de clases Orientado a Objetos.
+  S: Single Responsability. No cargar una clase de mucha responsabilidad.
+	(número de líneas, MVC -> Modelo Vista Controlador...).
+  O: Open Close. 
+  L: Liskov. 
+  I: Segregación de la interfaces.
+  D: Inyección de dependencia/control.
+
+
+
+- Principios STUPID -> Describe malas prácticas de programación.
+
+  S: Singleton. Un solo objeto se ejecuta en un solo hilo.
+  T: Tight Coupling.
+  U: Untestability. No has hecho pruebas de tu código.
+  P: Premature optimization.
+  I: Indescriptive name.
+  D: Duplicando código.
